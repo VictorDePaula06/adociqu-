@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adociquê</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <img src="imgs/logo.png" class="logo">
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#promocoes" class="nav-link">Promoções</a>
+                <a href="#contact" class="nav-link">Contato</a>
+                <button class="cart-btn" onclick="openCart()">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-badge">0</span>
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#menu" class="mobile-link">Menu</a>
+            <a href="#promocoes" class="mobile-link">Promoções</a>
+            <a href="#contact" class="mobile-link">Contato</a>
+            <button class="cart-btn mobile" onclick="openCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" >
+        <div class="hero-content">
+            <h1>Adociquê sua páscoa conosco</h1>
+            <div class="hero-buttons">
+                <button class="secondary-btn">Ver Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section class="promotions" id="promocoes">
+        <h2>Promoções Especiais</h2>
+        <div class="promotions-grid">
+            <!-- Promotions will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+
+    <!-- Menu Categories -->
+    <section class="menu-categories" id="menu">
+        <h2>Nosso Menu</h2>
+
+        <!-- Menu Navigation -->
+        <div class="menu-nav">
+            <button class="menu-nav-btn active" data-category="ovosColherS">Ovos de Colher Simples</button>
+            <button class="menu-nav-btn" data-category="ovosColherP">Ovos de Colher Premium</button>
+            <button class="menu-nav-btn" data-category="bRecheadas">Barras Recheadas</button>
+            <button class="menu-nav-btn" data-category="kits">kits</button>
+            <button class="menu-nav-btn" data-category="adicionais">Adicionais</button>
+
+        </div>
+
+        <!-- Menu Content -->
+        <div class="menu-content">
+            <div class="menu-section active" id="ovosColherS">
+                <div class="specials-grid">
+                    <!-- Special dishes will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="menu-section" id="ovosColherP">
+                <div class="specials-grid">
+                    <!-- Special dishes will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="menu-section" id="bRecheadas">
+                <div class="menu-grid">
+                    <!-- Chopp items will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="menu-section" id="kits">
+                <div class="menu-grid">
+                    <!-- Drinks will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="menu-section" id="adicionais">
+                <div class="menu-grid">
+                    <!-- Main dishes will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Localização</h4>
+
+                    <p>Duque de Caxias - Rio de Janeiro/RJ</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="social-links" id="contact">
+                        <a href="https://www.instagram.com/adocique_?igsh=Z25xejBrZmtmaW44" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5521993609898" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/place/Duque+de+Caxias,+RJ/@-22.7243668,-43.3258757,11441m/data=!3m1!1e3!4m6!3m5!1s0x9972edfbe838f5:0x672bb060c280a52a!8m2!3d-22.7868557!4d-43.3130887!16zL20vMDN6NmZi?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D"
+                            target="_blank" class="social-link">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Adociquê. Todos os direitos reservados.</p>
+                <p>&copy; Desenvolvido por Victor de Paula.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
