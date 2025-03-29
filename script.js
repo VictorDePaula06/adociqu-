@@ -40,7 +40,7 @@ const menuData = {
             id: 5,
             name: 'Ovo de Colher de Paçoca',
             description: 'Ovo de colher sabor Paçoca 250g',
-            price: 28,
+            price: 54.90,
             image: 'imgs/paçoca.jpg',
             discount: 0
         },
@@ -128,8 +128,8 @@ const menuData = {
     kits: [
         {
             id: 1,
-            name: 'Kit ',
-            description: 'kit infantil, 3 ovos 50g',
+            name: 'kit com 3 ovos 50g',
+            description: 'Escolher Recheios:<br>Beijinho, Chocolate, Ninho',
             price: 49.90,
             image: 'imgs/kit1.jpeg'
         },
@@ -172,14 +172,14 @@ const menuData = {
             image: 'imgs/brownieadicional.jpeg'
         },
         {
-            id: 1,
+            id: 5,
             name: 'Ferrero Rocher',
             description: 'Adicional de Ferrero Rocher',
             price: 5,
             image: 'imgs/ferreroadicional.jpeg'
         },
         {
-            id: 1,
+            id: 6,
             name: 'Kinder Bueno',
             description: 'Adicional de Kinder Bueno',
             price: 5,
