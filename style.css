@@ -147,7 +147,7 @@ body {
     min-height: calc(90vh - var(--navbar-height));
     margin-top: var(--navbar-height);
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('imgs/pascoa1.png');
+    url('imgs/pascoa5.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -787,7 +787,7 @@ body {
     }
 
     .hero-content h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 100%;
         color: #59210C;
     }
