@@ -4,24 +4,30 @@ const menuData = {
     ovosColherS: [
         {
             id: 1,
-            name: 'Ovo de Colher Chocolate',
-            description: 'Ovo de chocolate com brigadeiro 250g',
+            name: 'Ovo de Colher',
+            flavor:'Chocolate',
+            showFlavor:true,
+            description: 'Ovo de chocolate com Brigadeiro - 250g',
             price: 54.90,
             image: 'imgs/chocolate.jpg',
             discount: 0
         },
         {
             id: 2,
-            name: 'Ovo de Colher de Beijinho',
-            description: 'Ovo de colher sabor beijinho 250g',
+            name: 'Ovo de Colher',
+            flavor:'Beijinho',
+            showFlavor:true,
+            description: 'Ovo de colher com Beijinho - 250g',
             price: 54.90,
             image: 'imgs/beijinho.jpg',
             discount: 0
         },
         {
             id: 3,
-            name: 'Ovo de Colher de Ninho',
-            description: 'Ovo de colher sabor Ninho 250g',
+            name: 'Ovo de Colher',
+            flavor:'Ninho',
+            showFlavor:true,
+            description: 'Ovo de colher com Ninho - 250g',
             price: 54.90,
             image: 'imgs/ninho.jpeg',
             discount: 0
@@ -29,17 +35,21 @@ const menuData = {
 
         {
             id: 4,
-            name: 'Ovo de Colher de Oreo',
-            description: 'Ovo de colher sabor Oreo 250g',
+            name: 'Ovo de Colher',
+            flavor:'Oreo',
+            showFlavor:true,
+            description: 'Ovo de colher com Oreo - 250g',
             price: 54.90,
-            image: 'imgs/oreo.jpeg',
+            image: 'imgs/ovoOreo.jpeg',
             discount: 0
         },
 
         {
             id: 5,
-            name: 'Ovo de Colher de Paçoca',
-            description: 'Ovo de colher sabor Paçoca 250g',
+            name: 'Ovo de Colher',
+            flavor:'Paçoca',
+            showFlavor:true,
+            description: 'Ovo de colher com Paçoca - 250g',
             price: 54.90,
             image: 'imgs/paçoca.jpg',
             discount: 0
@@ -52,8 +62,10 @@ const menuData = {
         {
 
             id: 1,
-            name: 'Ovo de colher Kinder 250g',
-            description: 'Recheio de Ninho e Nutella e  decorado com pedaços de Kinder Bueno e docinhos de brigadeiro ',
+            name: 'Ovo de Colher Premium',
+            flavor:'Kinder',
+            showFlavor:true,
+            description: 'Recheio premium de creme de leite Ninho e Nutella, decorado com pedaços de Kinder Bueno e mini brigadeiros artesanais - 250g',
             price: 70,
             image: 'imgs/bueno.jpg',
             discount: 0
@@ -63,8 +75,10 @@ const menuData = {
         {
 
             id: 2,
-            name: 'Ovo de colher Ferrero Rocher 250g',
-            description: 'Recheio de chocolate e Nutella e decorado com amendoim e Ferrero Rocher ',
+            name: 'Ovo de colher Premium',
+            flavor:'Ferrero Rocher',
+            showFlavor:true,
+            description: 'Recheio cremoso de chocolate e Nutella, finalizado com crocantes de amendoim tostado e Ferrero Rocher inteiros - 250g',
             price: 70,
             image: 'imgs/Ferrero.jpg',
             discount: 0
@@ -74,10 +88,12 @@ const menuData = {
         {
 
             id: 3,
-            name: 'Ovo de colher Brownie 250g',
-            description: 'Recheio de sua preferencia e decorado com pedaços de brownie ',
+            name: 'Ovo de colher Premium',
+            flavor:'Brownie',
+            showFlavor:true,
+            description: 'ESCOLHA SEU RECHEIO PREFERIDO + pedaços de brownie caseiro - 250g<br>Sabores: Chocolate, Ninho, Nutella, Beijinho',
             price: 70,
-            image: 'imgs/brownie.jpg',
+            image: 'imgs/ovobrownie.jpg',
             discount: 0
 
 
@@ -90,36 +106,46 @@ const menuData = {
     bRecheadas: [
         {
             id: 1,
-            name: 'Barra Recheada de Oreo',
-            description: 'Barra Recheada sabor Oreo',
+            name: 'Barra Recheada',
+            flavor:'Oreo',
+            showFlavor:true,
+            description: 'Barra Recheada com Oreo',
             price: 38.90,
             image: 'imgs/barraoreo.jpeg'
         },
         {
             id: 2,
-            name: 'Barra Recheada de Paçoca',
-            description: 'Barra Recheada sabor Paçoca',
+            name: 'Barra Recheada',
+            showFlavor:true,
+            flavor:'Paçoca',
+            description: 'Barra Recheada com Paçoca',
             price: 38.90,
             image: 'imgs/barrapaçoca.jpeg'
         },
         {
             id: 3,
-            name: 'Barra Recheada de chocolate',
-            description: 'Barra Recheada sabor Chocolate',
+            name: 'Barra Recheada',
+            flavor:'Chocolate',
+            showFlavor:true,
+            description: 'Barra Recheada com Chocolate',
             price: 38.90,
             image: 'imgs/barrachocolate.jpeg'
         },
         {
             id: 4,
-            name: 'Barra Recheada de Ninho',
-            description: 'Barra Recheada sabor Leite Ninho',
+            name: 'Barra Recheada',
+            flavor:'Leite Ninho',
+            showFlavor:true,
+            description: 'Barra Recheada com Ninho',
             price: 38.90,
             image: 'imgs/barraninho.jpeg'
         },
         {
             id: 5,
-            name: 'Barra Recheada de Beijinho',
-            description: 'Barra Recheada sabor Beijinho',
+            name: 'Barra Recheada',
+            flavor:'Beijinho',
+            showFlavor:true,
+            description: 'Barra Recheada com Beijinho',
             price: 38.90,
             image: 'imgs/barrabeijinho.jpeg'
         },
@@ -129,16 +155,42 @@ const menuData = {
         {
             id: 1,
             name: 'kit com 3 ovos 50g',
-            description: 'Escolher Recheios:<br>Beijinho, Chocolate, Ninho',
+            description: 'Escolher Recheios:<br>Beijinho, Chocolate, Ninho<br><br><br>',
+            
             price: 49.90,
             image: 'imgs/kit1.jpeg'
         },
         {
             id: 2,
-            name: 'Kit infantil, 3 ovos 50g',
-            description: 'Escolher Recheio e decoração<br><br>Recheios: Beijinho, Chocolate, Ninho<br>Decoração: Disquete, Granulado',
+            name: 'Kit Infantil - 3 Ovos Decorados',
+            description: `
+                <div class="kit-description">
+                    <p>🧒 <strong>Kit Especial Infantil</strong> (3 ovos 50g)</p>
+                    
+                    <div class="custom-options">
+                        <div class="option-group">
+                            <p class="option-title">🎨 Recheios:</p>
+                            <div class="tags">
+                                <span class="tag">Beijinho</span>
+                                <span class="tag">Chocolate</span>
+                                <span class="tag">Ninho</span>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <p class="option-title">✨ Decoração:</p>
+                            <div class="tags">
+                                <span class="tag">Disquete, </span>
+                                <span class="tag">Granulado</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            `,
             price: 49.90,
-            image: 'imgs/kit2.jpeg'
+            image: 'imgs/kit2.jpeg',
         },
 
     ],
@@ -146,6 +198,7 @@ const menuData = {
         {
             id: 1,
             name: 'Oreo',
+            flavor:'Oreo',
             description: 'Adicional de Oreo',
             price: 5,
             image: 'imgs/oreoadicional.jpg'
@@ -159,8 +212,8 @@ const menuData = {
         },
         {
             id: 3,
-            name: 'Kit kat',
-            description: 'Adicional de kit kat',
+            name: 'Kit Kat',
+            description: 'Adicional de Kit Kat',
             price: 5,
             image: 'imgs/kitkat2.jpeg'
         },
@@ -204,7 +257,7 @@ const menuData = {
             name: 'Ovo de Colher 250g + Barra Recheada',
             description: 'Escolher sabores: <br>Chocolate, Beijinho, Ninho, Oreo, Paçoca',
             price: 85,
-            image: 'imgs/barrachocolate.jpeg',
+            image: 'imgs/3.png',
            
             
         },
@@ -480,6 +533,7 @@ function renderMenuSections() {
                 </div>
                 <div class="menu-content">
                     <h3 class="menu-title">${item.name}</h3>
+                   ${item.showFlavor ? `<p class="menu-flavor">Sabor: ${item.flavor}</p>` : ''}
                     <p class="menu-description">${item.description}</p>
                     <div class="menu-price">
                         <span class="current-price">R$ ${discountPrice}</span>
